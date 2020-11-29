@@ -1,0 +1,18 @@
+:root{
+  --row_size: 50px;
+}
+
+.gridContainer{
+  margin: auto;
+  width: 50%;
+  height: auto;
+  display: grid;
+  grid-template-columns: repeat(16, var(--row_size));
+  grid-template-rows: repeat(16, var(--row_size));
+  padding: 0;
+}
+
+.a{
+  color: gray;
+  border: double;
+}
